@@ -11,7 +11,7 @@ import ast
 import pprint
 
 # 3 => (6.0, 3.0)
-max_api_wait_time = (6.0, 3.0)
+max_api_wait_time = (3.0, 1.5)
 # 10 => 10
 max_time = 10
 
