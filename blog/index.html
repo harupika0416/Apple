@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Music Style Login</title>
+    <title>Apple Music Embed</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <!-- Apple Musicのロゴに変更 -->
+            <!-- Apple Musicのロゴ -->
             <img src="apple-music-logo.png" alt="Apple Music">
         </div>
     </header>
 
-    <div class="login-container">
-        <h1>Sign In</h1>
-        <!-- フォーム送信後にHome YT MLに遷移 -->
-        <form action="home.html" method="get">
-            <input type="email" placeholder="Email Address" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit" class="button">Sign In</button>
-        </form>
+    <!-- Apple Music プレーヤーの埋め込み -->
+    <div class="apple-music-player">
+        <iframe src="https://music.apple.com/jp/new" width="400" height="400" frameborder="0" allow="autoplay"></iframe>
     </div>
+
+    <!-- ホームリンク（ログイン後に表示される） -->
+    <footer>
+        <a href="home.html">Go to Home</a>
+    </footer>
 </body>
 </html>
