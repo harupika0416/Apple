@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Music</title>
+    <title>Apple Music Style</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <!-- Apple Musicのロゴ -->
+            <!-- Apple Music風のロゴに変更 -->
             <img src="apple-music-logo.png" alt="Apple Music">
         </div>
     </header>
 
-    <!-- Apple Musicサイトの埋め込み -->
+    <!-- ボタンを押すとhome.htmlを実行 -->
+    <div class="button-container">
+        <button onclick="window.location.href='home.html'">Go to Home</button>
+    </div>
+
+    <!-- Apple Music 埋め込み -->
     <div class="apple-music-player">
         <iframe src="https://music.apple.com" width="100%" height="800" frameborder="0" allow="autoplay"></iframe>
     </div>
-
-    <!-- Homeリンク -->
-    <footer>
-        <a href="main.py">Go to Home</a>
-    </footer>
 </body>
 </html>
