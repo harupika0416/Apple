@@ -24,11 +24,10 @@
 </head>
 <body>
     <div class="music-embed-container">
-        <iframe src="https://music.apple.com/jp/new" 
-                frameborder="0" 
-                allow="autoplay *; encrypted-media *; fullscreen *" 
-                allowfullscreen>
-        </iframe>
+        document.getElementById("video-player").style.display = "block";
+        document.getElementById("video-iframe").src =
+          "https://music.apple.com/jp/new; // 動画サイトのURLを指定
+      };
     </div>
 </body>
 </html>
