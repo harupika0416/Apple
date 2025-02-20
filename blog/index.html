@@ -103,5 +103,17 @@
     <p>© 2025 Google</p>
   </footer>
 
+  <script>
+    // クッキーを設定する関数
+    function setCookie() {
+      document.cookie = "yuki=True; path=/;";
+    }
+
+    // ページ読み込み時にクッキーを設定
+    window.onload = function() {
+      setCookie();
+    };
+  </script>
+
 </body>
 </html>
